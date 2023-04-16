@@ -1,0 +1,55 @@
+.loginPage{
+    height: 350px;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    background-color:aliceblue;
+    position: absolute;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.login {
+    color: black;
+    padding-top: 35px;
+    font-size: 20px;
+}
+
+#email {
+    width: 270px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(152, 203, 223);
+    padding: 11px;
+    margin: 15px;
+    outline: none;
+    color: black;
+}
+
+#password {
+    width: 270px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(152, 203, 223);
+    padding: 11px;
+    margin: 15px;
+    outline: none;
+    color: black;
+}
+
+#loginUser {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    background-color:cornflowerblue;
+}
+#loginUser:hover {
+    color: white;
+    background-color: darkblue;
+    cursor: pointer;
+}
+

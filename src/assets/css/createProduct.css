@@ -1,0 +1,124 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/*navbar style*/
+a {
+    color: #0D6EFD !important;
+    font-weight: bold !important;
+}
+
+a:hover {
+  background-color: #0D6EFD;
+  border-radius: 5%;
+  color: white !important;
+}
+
+.head {
+    margin-top: 16px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 110px;
+    padding-top: 20px;
+    width: 936px;
+    height: 900px;
+}
+
+img {
+    width: 71px;
+    height: 57px;
+    left: calc(50% - 71.53px/2 + 0px);
+    padding-top: 9px;
+}
+
+h1 {
+  position: absolute;
+  width: 209px;
+  height: 39px;
+  left: 530px;
+  top: 150px;
+}
+
+h1 {
+    position: absolute;
+    width: 209px;
+    height: 39px;
+    left: 530px;
+    top: 150px;
+}
+
+h3 {
+    width: 209px;
+    height: 39px;
+    left: 530px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.paragraf {
+    position: absolute;
+    width: 990px;
+    height: 60px;
+    left: calc(50% - 921.42px/2 + 0.1px);
+    top: 190px;
+    text-align: center;
+    color: #212529;
+}
+
+/*form input style*/
+.main-content .data form {
+  align-items: center;
+ 
+}
+
+.custom-file-button input[type=file]::-webkit-file-upload-button {
+  background-color: blue;
+  border-color: blue;
+  color: white;
+}
+
+/*tabel product style*/
+.product {
+  margin-left: 60px;
+  padding-left: 10px;
+  
+  width: 1000px;
+  height: 200px;
+}
+
+.judul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+
+    width: 1000px;
+    height: 80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.listproduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.logout {
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+}
+.logout:hover {
+    background-color: aqua;
+}
